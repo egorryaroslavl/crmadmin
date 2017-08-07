@@ -1,0 +1,1 @@
+/home/egorr/Code/AdminPanel/Galleries/packages/egorryaroslavl/galleries/src/config/galleries.php

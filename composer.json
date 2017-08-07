@@ -1,0 +1,22 @@
+{
+  "name": "egorryaroslavl/crm",
+  "description": "CRM Admin",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "egorr",
+      "email": "yaroslavl.city@gmail.com"
+    }
+  ],
+  "require": {
+    "laravelcollective/html": "^5.4",
+    "intervention/image": "^2.3",
+    "barryvdh/laravel-elfinder": "^0.3.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "Egorryaroslavl\\Crm\\": "src/"
+    }
+  }
+}
