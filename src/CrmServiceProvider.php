@@ -13,7 +13,9 @@
 			$this->loadRoutesFrom( __DIR__ . '/routes.php' );
 			$this->publishes( [ __DIR__ . '/views' => resource_path( 'views/admin/crm' ) ], 'crm' );
 			$this->publishes( [ __DIR__ . '/config/crm.php' => config_path( 'admin/crm.php' ) ], 'crmConfig' );
-	 
+
+			$this->publishes( [ __DIR__ . '/assets' => public_path( 'assets' ) ], 'assets' );
+
 
 		}
 
